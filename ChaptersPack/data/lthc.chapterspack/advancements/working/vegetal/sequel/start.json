@@ -1,45 +1,45 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:wheat_seeds"
-      },
-      "title": "Seedy pocket",
-      "description": "Get a stack of wheat seeds for a cool reward",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
-    },
-    "parent": "lthc.chapterspack:working/vegetal/root",
-    "criteria": {
-      "unlock": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "player": {
-                  "advancements": {
-                    "lthc.chapterspack:working/vegetal/root": true
-                  }
-                }
-              }
-            }
-          ],
-          "items": [
-            {
-              "items": [
-                "minecraft:wheat_seeds"
-              ],
-              "count": 64
-            }
-          ]
-        }
-      }
-    },
-    "rewards": {
-      "experience": 100
-    }
-  }
+	"display": {
+		"icon": {
+		"item": "minecraft:wheat_seeds"
+		},
+		"title": "Seedy pocket",
+		"description": "Get a stack of wheat seeds for a cool reward",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "lthc.chapterspack:working/vegetal/root",
+	"criteria": {
+		"unlock": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"player": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"player": {
+					"advancements": {
+					"lthc.chapterspack:working/vegetal/root": true
+					}
+				}
+				}
+			}
+			],
+			"items": [
+			{
+				"items": [
+				"minecraft:wheat_seeds"
+				],
+				"count": 64
+			}
+			]
+		}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+	}

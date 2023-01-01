@@ -1,46 +1,46 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:copper_block"
-      },
-      "title": "Electro zoom",
-      "description": "Get a stack of copper block for a really cool reward",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
-    },
-    "parent": "lthc.chapterspack:working/copper/sequel/start",
-    "criteria": {
-      "unlock": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "player": {
-                  "advancements": {
-                    "lthc.chapterspack:working/copper/sequel/start": true
-                  }
-                }
-              }
-            }
-          ],
-          "items": [
-            {
-              "items": [
-                "minecraft:copper_block"
-              ],
-              "count": 64
-            }
-          ]
-        }
-      }
-    },
-    "rewards": {
-      "experience": 500,
-      "function": "lthc.chapterspack:working/copper/next_reward"
-    }
-  }
+	"display": {
+		"icon": {
+		"item": "minecraft:copper_block"
+		},
+		"title": "Electro zoom",
+		"description": "Get a stack of copper block for a really cool reward",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "lthc.chapterspack:working/copper/sequel/start",
+	"criteria": {
+		"unlock": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"player": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				"player": {
+					"advancements": {
+					"lthc.chapterspack:working/copper/sequel/start": true
+					}
+				}
+				}
+			}
+			],
+			"items": [
+			{
+				"items": [
+				"minecraft:copper_block"
+				],
+				"count": 64
+			}
+			]
+		}
+		}
+	},
+	"rewards": {
+		"experience": 500,
+		"function": "lthc.chapterspack:working/copper/next_reward"
+	}
+	}
