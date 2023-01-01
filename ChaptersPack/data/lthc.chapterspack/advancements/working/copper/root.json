@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:copper_ingot"
+        },
+        "title": "Copper Chapter",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "frame": "task"
+    },
+    "parent": "lthc.chapterspack:working/root",
+    "criteria": {
+        "a":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}

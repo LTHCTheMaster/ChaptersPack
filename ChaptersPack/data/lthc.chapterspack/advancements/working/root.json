@@ -1,0 +1,22 @@
+{
+	"display": {
+	"icon": {
+		"item": "writable_book"
+	},
+	"title": {
+		"text": "Chapters Pack",
+		"color": "#d91107"
+	},
+	"description": "Chapters Pack",
+	"background": "minecraft:textures/block/lime_concrete.png",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": false,
+	"frame": "challenge"
+	},
+	"criteria": {
+	"auto": {
+		"trigger": "tick"
+	}
+	}
+}
